@@ -1,0 +1,17 @@
+.product {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    gap: 10px;
+}
+
+.product-item {
+    border: 1px solid #000;
+    padding: 10px;
+
+    &_image {
+height: 150px;
+object-fit: contain;
+width: 100%;
+    }
+}
